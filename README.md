@@ -1,0 +1,13 @@
+Download Link: https://assignmentchef.com/product/solved-cse-102-homework-11-a-booking-program-for-hotels
+<br>
+CSE 102 –Computer ProgrammingHW 11Purpose of this assignment is developing a booking program for hotels. The basic concept of this program consist of two lists; Rooms and customers. The hotel is the list of the rooms basically. Any room in the hotel has number, capacity, floor and customer properties. The customers has surname, name, age and gender properties. In this assignment you will develop the system with linked list data structure. You need to construct a list like shown in below:As shown above, there could be zero, one or more customers in a room. You need to link them together also. All rooms and customers are given with text files which are available on moodle under assignment 11 topics. First read rooms from the rooms.txt file and construct the room list. After that, read customers from customers.txt file and link customers each other’s that are in same room and after that link the partial list with the room. You need to write the code of functions which are shown in below.
+
+<img decoding="async" data-recalc-dims="1" data-src="https://i0.wp.com/www.ankitcodinghub.com/wp-content/uploads/2020/04/848.png?w=980&amp;ssl=1" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+
+ <noscript>
+
+  <img decoding="async" src="https://i0.wp.com/www.ankitcodinghub.com/wp-content/uploads/2020/04/848.png?w=980&amp;ssl=1" data-recalc-dims="1">
+
+ </noscript>
+
+add_room_to_end(): The function add a room to the end of the room list.add_room_after_room_number (): The function add a room to after the given room number. If the given room does not exists, add it to the end of the list.add_customer_to_end(): The function add a customer to the end of the partial customer list.link_customers_to_room(): The function adds partial customer list to a room.remove _room (): The function removes the room indicated by the room number.show_vacancy(): The function list all available rooms that don’t have any customer.Room 1Room 2Room 3….Customer 1Customer 2Customer 7get_by_floor(): The function lists the rooms with the given floor number.print_list (): The function prints the room list with customers as shown below:Room 101 (Floor 1 – capacity 3x):-&gt; Cedric Stone (28 – Male)-&gt; Elisabeth Kubiak (28 – Female)Room 102 (Floor 1 – capacity 2x):-&gt; EmptyRoom 303 (Floor 3 – capacity 1x):-&gt; Dora Waage…Note that the given functions that are on above are just represents of the functions not the prototypes.General:
